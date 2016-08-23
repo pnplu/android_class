@@ -6,7 +6,7 @@ in classroom
 - [Android Studio](https://developer.android.com/studio/index.html)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Genymotion](https://www.genymotion.com/download/)
-> Genymotion need VirtualBox
+* * Genymotion need VirtualBox
 
 ### 01 / Hello World
 - First time and Calculate 2 number in application ( need Genymotion )
