@@ -61,8 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_below="@id/LNLFirst"
+        android:layout_below="@+id/LNLFirst"
         android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/LNLFive"
         >
         <Button
             android:id="@+id/BTNEqual"
