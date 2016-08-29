@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/EDTResult"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="0"
+        android:textSize="50sp"
+        android:gravity="right|bottom"
+        />
+
+    <!-- Button rows1 -->
+    <LinearLayout
+        android:id="@+id/LNLFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/EDTResult"
+        >
+
+        <Button
+            android:id="@+id/BTNDevide"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="/"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNMultiple"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="X"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="-"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="+"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+
+    <!-- Button equal -->
+    <LinearLayout
+        android:id="@+id/LNLEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/LNLFirst"
+        android:layout_alignParentRight="true"
+        >
+        <Button
+            android:id="@+id/BTNEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="="
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+
+    </LinearLayout>
+
+    <!-- Button 3 rows1 -->
+    <LinearLayout
+        android:id="@+id/LNLSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LNLFirst"
+        android:layout_toStartOf="@id/LNLEqual"
+        >
+
+        <Button
+            android:id="@+id/BTNSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="7"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNEight"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="8"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNNine"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="9"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+    </LinearLayout>
+
+    <!-- Button 3 rows2 -->
+    <LinearLayout
+        android:id="@+id/LNLThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LNLSecond"
+        android:layout_toStartOf="@id/LNLEqual"
+        >
+
+        <Button
+            android:id="@+id/BTNFour"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="4"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNFive"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="5"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNSix"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="6"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+    </LinearLayout>
+
+    <!-- Button 3 rows3 -->
+    <LinearLayout
+        android:id="@+id/LNLFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LNLThird"
+        android:layout_toStartOf="@id/LNLEqual"
+        >
+
+        <Button
+            android:id="@+id/BTNOne"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="1"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="2"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNThree"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="3"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+    </LinearLayout>
+
+    <!-- Button 3 rows4 -->
+    <LinearLayout
+        android:id="@+id/LNLFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/LNLFour"
+        android:layout_toStartOf="@id/LNLEqual"
+        >
+
+        <Button
+            android:id="@+id/BTNDot"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="."
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNZero"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="0"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+        <Button
+            android:id="@+id/BTNDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Del"
+            android:textSize="25sp"
+            android:layout_weight="25"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
