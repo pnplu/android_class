@@ -10,3 +10,7 @@ in classroom
 
 ### 01 / Hello World
 - First time and Calculate 2 number in application ( need Genymotion )
+
+### 02/UiFirst
+- Calculate Layout in class
+**Error with AlignBottom @id/five**
