@@ -13,3 +13,6 @@ in classroom
 
 ### 02 / UiFirst
 - Calculate Layout in class
+
+### 03 / ContactMemory
+- Intent Android and Request , Result Code
