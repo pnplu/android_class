@@ -14,5 +14,9 @@ in classroom
 ### 02 / UiFirst
 - Calculate Layout in class
 
-### 03 / ContactMemory
+### 03-04 / ContactMemory
 - Intent Android and Request , Result Code
+- RecyclerViews
+
+### 05 / Workshop
+- Workshop 04 List Food No total values

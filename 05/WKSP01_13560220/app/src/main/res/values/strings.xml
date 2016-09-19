@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WKSP01_13560220</string>
+    <string name="app_btntoadd">Input Food</string>
+    <string name="app_et_qualtity">Input Qualtity</string>
+    <string name="app_calorie">Input Calorie</string>
+    <string name="app_addfood">Add Food</string>
+    <string name="app_name_food">Name</string>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/ETFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_btntoadd"
+        />
+    <EditText
+        android:id="@+id/ETQualtity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_et_qualtity"
+        />
+    <EditText
+        android:id="@+id/ETCalorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_calorie"
+        />
+    <Button
+        android:id="@+id/BTNAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddToMain"
+        android:text="@string/app_addfood"
+        />
+
+</LinearLayout>
