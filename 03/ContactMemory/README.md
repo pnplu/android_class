@@ -1,3 +1,0 @@
-### 03-04 / ContactMemory
-- Intent Android and Request , Result Code
-- RecyclerViews
