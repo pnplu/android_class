@@ -20,3 +20,6 @@ in classroom
 
 ### 05 / Workshop
 - Workshop 04 List Food No total values
+
+### 06 / Database
+- Create DB on xampp
