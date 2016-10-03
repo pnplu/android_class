@@ -23,11 +23,19 @@
         android:onClick="onClickAddContact"
         android:layout_below="@id/TV01"
         />
+    <TextView
+        android:id="@+id/TVTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BTNToAdd"
+        android:hint="total"
+        android:layout_alignParentRight="true"
+        />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/RCVData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/BTNToAdd"
+        android:layout_below="@id/TVTotal"
         >
 
     </android.support.v7.widget.RecyclerView>

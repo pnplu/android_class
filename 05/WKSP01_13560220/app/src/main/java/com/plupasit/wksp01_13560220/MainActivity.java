@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 
 import com.plupasit.wksp01_13560220.Adapter.Adapter220;
 import com.plupasit.wksp01_13560220.DataModel.DataModel220;
@@ -29,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
                 double caloriename = data.getDoubleExtra("CALORIE", -1);
 
                 dataset.add(new DataModel220(foodname, qualtityname, caloriename));
+                total = total+caloriename;
+                TextView tvtotal = (TextView)findViewById(R.id.TVTotal);
+                tvtotal.setText("Total Calorie : "+ total);
+
                 adapter.notifyDataSetChanged();
             }
         }
@@ -45,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView rcy = (RecyclerView)findViewById(R.id.RCVData);
         rcy.setLayoutManager(new LinearLayoutManager(this));
         rcy.setAdapter(adapter);
-
-
 
     }
 
