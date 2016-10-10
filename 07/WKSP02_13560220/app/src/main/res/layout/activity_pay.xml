@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/EDTNameYourPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Your Pay"
+        />
+    <EditText
+        android:id="@+id/EDTPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Money to Pay"
+        />
+    <Button
+        android:id="@+id/BTNPayMoney2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:onClick="onClickPayMoney"
+        />
+
+</LinearLayout>

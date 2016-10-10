@@ -1,4 +1,4 @@
-package com.plupasit.wksp01_13560220.DataModel;
+ppackage com.plupasit.wksp01_13560220.DataModel;
 
 /**
  * Created by PnPlu on 9/19/2016 AD.

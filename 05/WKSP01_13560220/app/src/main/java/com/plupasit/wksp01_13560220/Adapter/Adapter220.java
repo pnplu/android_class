@@ -1,4 +1,4 @@
-package com.plupasit.wksp01_13560220.Adapter;
+ppackage com.plupasit.wksp01_13560220.Adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -20,7 +20,7 @@ public class Adapter220 extends RecyclerView.Adapter
 
     public Adapter220(ArrayList<DataModel220> dataset) {this.dataset = dataset;}
 
-    @Override
+     pag.Cda@Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
         ContactViewHolder current = new ContactViewHolder(view);

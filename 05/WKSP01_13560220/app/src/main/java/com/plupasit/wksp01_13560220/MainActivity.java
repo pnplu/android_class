@@ -1,4 +1,4 @@
-package com.plupasit.wksp01_13560220;
+=package com.plupasit.wksp01_13560220;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onClickAddContact(View v)
+    public void onClickA ddContact(View v)
     {
         Intent doIntent= new Intent(this, AddData220.class);
         startActivityForResult(doIntent, 5);

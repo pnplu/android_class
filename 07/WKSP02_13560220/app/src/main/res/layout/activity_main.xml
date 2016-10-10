@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.plupasit.wksp02_13560220.MainActivity">
+
+    <TextView
+        android:id="@+id/TVTopic"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Your Have Money"
+        />
+    <TextView
+        android:id="@+id/TVMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:layout_below="@id/TVTopic"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/BTNAddmoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVMoney"
+        android:text="Add Money"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickAddMoney2"
+        />
+    <Button
+        android:id="@+id/BTNPayMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay With Money"
+        android:layout_below="@id/BTNAddmoney"
+        android:onClick="onClickPayMoney2"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RCVData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BTNPayMoney"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
