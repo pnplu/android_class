@@ -23,3 +23,6 @@ in classroom
 
 ### 06 / Database
 - Create DB on xampp
+
+### 07 / WKSP02_13560220
+- Workshop Recyclerview 
