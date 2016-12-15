@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.plupasit.wksp02_13560220.Adapter.Adapter220;
 import com.plupasit.wksp02_13560220.DataModel.Datamodel220;
@@ -61,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView rcy = (RecyclerView)findViewById(R.id.RCVData);
         rcy.setLayoutManager(new LinearLayoutManager(this));
         rcy.setAdapter(adapter);
+
+        ServerConnector connector = new ServerConnector();
+        String result = connector.connect("index.php",true);
+
+        //Toast.makeText(this, result, Toast.LENGTH_LONG).show();
+        TextView tv = (TextView)findViewById(R.id.TVTopic);
+        tv.setText(result);
     }
     public void onClickAddMoney2(View v)
     {

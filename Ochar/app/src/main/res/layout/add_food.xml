@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#302923"
+    >
+
+    <ImageView
+        android:id="@+id/IMGFood_addpage"
+        android:layout_width="330dp"
+        android:layout_height="200dp"
+        android:background="#958756"
+        android:src="@drawable/icon_add"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+        android:id="@+id/EDTFood_name_addpage"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:hint="Food Name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/IMGFood_addpage"
+        />
+
+
+    <EditText
+        android:id="@+id/EDTDescription_addpage"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:hint="Description"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:Baseline="#fff"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/EDTFood_name_addpage"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/FORMdetail_material_addpage"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/EDTDescription_addpage"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="5dp"
+        >
+
+        <EditText
+            android:id="@+id/EDTname_material_addpage"
+            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:hint="วัตถุดิบที่ 1"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="50"
+            android:paddingLeft="5dp"
+            android:paddingBottom="20dp"
+             />
+        <EditText
+            android:id="@+id/EDTamount_material_addpage"
+            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:paddingBottom="20dp"
+            android:hint="จำนวน"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:Baseline="#fff"
+            android:layout_weight="20"
+            android:paddingLeft="5dp"
+            />
+        <EditText
+            android:id="@+id/EDTunit_material_addpage"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:hint="หน่วย"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:Baseline="#fff"
+            android:layout_weight="30"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTNadd_data"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:layout_below="@id/FORMdetail_material_addpage"
+        android:textSize="25sp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="13dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ เพิ่มรายการอาหาร"
+        android:layout_below="@id/BTNadd_data"
+        android:textSize="18sp"
+        android:background="#958756"
+        android:textColor="#ffffff"
+
+        />
+
+
+
+</RelativeLayout>
